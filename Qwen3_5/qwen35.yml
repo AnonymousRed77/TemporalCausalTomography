@@ -498,4 +498,4 @@ dependencies:
       - typing-extensions==4.10.0
       - xlrd==2.0.1
       - yacs==0.1.8
-prefix: /home/chinh/anaconda3
+prefix: /home/user/anaconda3
