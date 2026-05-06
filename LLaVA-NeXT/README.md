@@ -37,4 +37,4 @@ We used 1 NVIDIA A40 GPU with 48GB to run and fine-tune this model.
 
 ``python llavanext_13b_tct.py``
 
-This will then create a CSV file that contains the image file paths, the types of questions (tsc, tad, btp, tcap), the questions, and LLaVA-NeXT's responses to these questions.
+This will then create a CSV file that contains the image file paths, the probe types (tsc, tad, btp, and tcap), the questions, and LLaVA-NeXT's responses to these questions.
