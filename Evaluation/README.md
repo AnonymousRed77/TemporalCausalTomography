@@ -79,7 +79,11 @@ This will then print out the BTP Forward and Backward Accuracy and the TAD Accur
 - Line 17: Replace with actual path to your VLM result CSV file
 - Line 20: Replace 'model_name' with the VLM being evaluated (e.g., llava_next, llava_cot, qwen3vl, etc.)
 
-3. Save the code, go to ``TCT-Eval`` and run the code there
+3. Create an OpenAI API key and set it as an environment variable using the following command
+
+``export OPENAI_API_KEY='YOUR-API-KEY'``
+
+4. Save the code, go to ``TCT-Eval`` and run the code there
 
 ``python gpt4_tct_tad_eval.py``
 
@@ -97,7 +101,11 @@ This will then create a CSV file that contains the image file paths and the judg
 - Line 22: Replace with actual path to your VLM result CSV file
 - Line 25: Replace 'model_name' with the VLM being evaluated (e.g., llava_next, llava_cot, qwen3vl, etc.)
 
-3. Save the code, go to ``TCT-Eval`` and run the code there
+3. Create an Anthropic API key and set it as an environment variable using the following command
+
+``export ANTHROPIC_API_KEY='YOUR-API-KEY'``
+
+4. Save the code, go to ``TCT-Eval`` and run the code there
 
 ``python claude_tct_tad_eval.py``
 
@@ -115,7 +123,11 @@ This will then create a CSV file that contains the image file paths and the judg
 - Line 23: Replace with actual path to your VLM result CSV file
 - Line 26: Replace 'model_name' with the VLM being evaluated (e.g., llava_next, llava_cot, qwen3vl, etc.)
 
-3. Save the code, go to ``TCT-Eval`` and run the code there
+3. Create an Gemini API key and set it as an environment variable using the following command
+
+``export GEMINI_API_KEY='YOUR-API-KEY'``
+
+4. Save the code, go to ``TCT-Eval`` and run the code there
 
 ``python gemini_tct_tad_eval.py``
 
@@ -133,7 +145,11 @@ This will then create a CSV file that contains the image file paths and the judg
 - Line 25: Replace with actual path to your VLM result CSV file
 - Line 28: Replace 'model_name' with the VLM being evaluated (e.g., llava_next, llava_cot, qwen3vl, etc.)
 
-3. Save the code, go to ``TCT-Eval`` and run the code there
+3. Create an XAI API key and set it as an environment variable using the following command
+
+``export XAI_API_KEY='YOUR-API-KEY'``
+
+4. Save the code, go to ``TCT-Eval`` and run the code there
 
 ``python grok4_tct_tad_eval.py``
 
