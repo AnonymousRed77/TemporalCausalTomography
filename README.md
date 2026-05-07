@@ -23,7 +23,7 @@ You can also experiment with another VLM that is not included here. Make sure th
 
 Use the evaluation scripts in the Evaluation directory. Evaluation proceeds in two empirical tiers. Tier 1 performs exact-match scoring on probe outputs and computes metrics from probe choices alone, with no LLM-judge dependence. Tier 2 supplements Tier 1 with LLM-judge analyses of textual explanations on TAD items. 
 
-We used GPT-4o, Claude 4.6 Sonnet, Gemini 2.5 Pro, and Grok 4.20 as judges to evaluate the responses of the models. More information can be found in the README file of this directory. Warning: This requires **paid subscriptions** to use the APIs.
+We used GPT-4o, Claude 4.6 Sonnet, Gemini 2.5 Pro, and Grok 4.20 as judges to evaluate the TAD responses of the models. More information can be found in the README file of this directory. Warning: This requires **paid subscriptions** to use the APIs.
 
 ## Acknowledgment
 
